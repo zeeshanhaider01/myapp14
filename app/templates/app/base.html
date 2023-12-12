@@ -1,3 +1,4 @@
+{% load myfirsttag %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,5 +9,7 @@
 <body>
     <h1>AOA! my name is {{usn}}</h1>
     <h1>my age is {{age}}</h1>
+    {{ u|my_filter:age }}
+    {% my_tag age %}
 </body>
 </html>

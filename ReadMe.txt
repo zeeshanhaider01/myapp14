@@ -1,0 +1,2 @@
+in app folder views.py file is populating data in base.html and base.html is using myfirsttag.py(from templates/app/), my firsttag.py
+ has django custome filters and tag to see the tags and filters search in google "Django cutome filter and tags"
